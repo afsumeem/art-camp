@@ -1,16 +1,20 @@
 import React from 'react';
+import Header from '../Header/Header';
 
 const Home = () => {
     return (
-        <div className='columns-2'>
-           <div>
+        <>
+      <Header/>
+        <div className='grid grid-cols-1 md:grid-cols-2'>
+           <div className='bg-sky-500  h-40'>
             
            </div>
 
-            <div>
+            <div className='bg-red-500 h-40'>
                 
             </div> 
         </div>
+        </>
     );
 };
 
