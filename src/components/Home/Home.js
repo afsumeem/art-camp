@@ -2,8 +2,14 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className='columns-2'>
+           <div>
             
+           </div>
+
+            <div>
+                
+            </div> 
         </div>
     );
 };
