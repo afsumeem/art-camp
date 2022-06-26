@@ -6,6 +6,7 @@ import image3 from "../../images/download (2).jpg"
 import Classes from '../Classes/Classes/Classes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faShareSquare } from '@fortawesome/free-regular-svg-icons';
+import "./Home.css"
 
 const Home = () => {
     
@@ -27,13 +28,18 @@ const Home = () => {
             </div>
            </div>
                 <div className='grid grid-cols-1 md:grid-cols-2' >
-                    <div>
+                    <div className='image'>
                         <img className='h-96' src={image1} alt='' /> 
                     </div>
 
                     <div>
-                        <img className='h-48' src={image2}  alt=''/>
+                        <div className='image'>
+                    <img className='h-48' src={image2}  alt=''/>
+                    </div>
+                        <div className='image'>
                         <img className='h-48 pt-6'  src={image3} alt=''/>
+                        </div>
+                        
                     </div>
                 </div>
            
