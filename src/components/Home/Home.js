@@ -30,7 +30,7 @@ const Home = () => {
             <Classes/>
             {/* button */}
 
-            <div className='items-center justify-between flex'>
+            <div className='items-center justify-between flex mb-2'>
                 <button type='button' className='bg-violet-700 text-slate-100 px-5 mt-6 py-2 rounded-full cursor-pointer hover:bg-violet-900'>See Class Schedule {arrow}</button>
 
                 <p className='pt-6 text-violet-700 cursor-pointer hover:text-violet-900'>{heart} Save</p>
@@ -40,7 +40,7 @@ const Home = () => {
 
                 {/* all images */}
                 <div className='grid grid-cols-1 md:grid-cols-2' >
-                    <div className='image'>
+                    <div className='image mb-6'>
                         <img className='h-96' src={image1} alt='' /> 
                     </div>
 
