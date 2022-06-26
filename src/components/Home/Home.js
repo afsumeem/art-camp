@@ -6,7 +6,7 @@ import image3 from "../../images/download (2).jpg"
 import Classes from '../Classes/Classes/Classes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faShareSquare } from '@fortawesome/free-regular-svg-icons';
-import "./Home.css"
+import "./Home.css";
 
 const Home = () => {
     
@@ -20,7 +20,7 @@ const Home = () => {
            <div>
             <Classes/>
             <div className='items-center justify-between flex'>
-                <button type='button' className='bg-violet-700 text-slate-100 px-5 mt-6 py-2 rounded-full cursor-pointer hover:bg-violet-900'>See Class Schedule </button>
+                <button type='button' className='bg-violet-700 text-slate-100 px-5 mt-6 py-2 rounded-full cursor-pointer hover:bg-violet-900'>See Class Schedule <FontAwesomeIcon icon="fa-regular fa-angle-right" /></button>
 
                 <p className='pt-6 text-violet-700 cursor-pointer hover:text-violet-900'>{heart} Save</p>
 
