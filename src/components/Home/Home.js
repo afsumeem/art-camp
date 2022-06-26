@@ -7,7 +7,7 @@ import Classes from '../Classes/Classes/Classes';
 
 const Home = () => {
     return (
-        <div>
+        <div className="h-96 my-10 mx-10">
       <Header/>
         <div className='grid grid-cols-1 md:grid-cols-2'>
            <div className='bg-sky-500 '>
