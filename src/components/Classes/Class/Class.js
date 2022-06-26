@@ -24,7 +24,7 @@ const Class = (props) => {
                 <p className='pl-3 text-xs text-gray-500'>{classReview} reviews for this class</p>
             </div>
             
-            <h4>Completed by {learner} learners</h4>
+            <h4 className='font-medium'>Completed by {learner} learners</h4>
         </div>
     );
 };
