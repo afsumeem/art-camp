@@ -7,6 +7,7 @@ const Class = (props) => {
    
     const star= <FontAwesomeIcon icon={faStar} />
     return (
+        // class content
         <div>
             <p className='pr-6 mb-10 text-black'>{description}</p>
             <div className='flex items-center'>
@@ -14,6 +15,7 @@ const Class = (props) => {
                 <h5 className=' pl-3 text-violet-700 font-bold'>{name}</h5>
             </div>
 
+            {/* reviews */}
             <div className='flex items-center pt-4'>
                 <p className='text-yellow-400'>{star}{star}{star}{star}{star}</p>
                 <p className='pl-3 text-xs text-gray-500'>{teacherReview} total reviews for this teacher</p>

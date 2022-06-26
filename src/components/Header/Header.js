@@ -5,6 +5,8 @@ import { faCircleQuestion} from '@fortawesome/free-regular-svg-icons'
 const Header = () => {
     const questionMark = <FontAwesomeIcon icon={faCircleQuestion} />
     return (
+        
+        // main header
         <div>
             <h2 className='font-extrabold text-3xl'>Summer Art Camp! 5 Days of Artists and Painting Monet, <br/>Van Gogh, Matisse, & More</h2>
 

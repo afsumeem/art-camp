@@ -4,6 +4,7 @@ import Class from '../Class/Class';
 const Classes = () => {
     const [allClasses, setAllClasses] = useState([]);
 
+    // fetch data
     useEffect(() => {
         fetch('./fakedata.json')
             .then(res => res.json())
