@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../Header/Header';
-import image1 from "../../images/12085871_dsc-4005.jpg"
-import image2 from "../../images/download (1).jpg"
-import image3 from "../../images/download (2).jpg"
+import image1 from "../../images/image4.jpg"
+import image2 from "../../images/image (1).jpg"
+import image3 from "../../images/image (2).jpg"
 import Classes from '../Classes/Classes/Classes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faShareSquare } from '@fortawesome/free-regular-svg-icons';
