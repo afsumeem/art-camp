@@ -9,17 +9,16 @@ const Home = () => {
     return (
         <div className="h-96 my-10 mx-10">
       <Header/>
-        <div className='grid grid-cols-1 md:grid-cols-2'>
-           <div className='bg-sky-500 '>
+        <div className='grid grid-cols-1 md:grid-cols-2 pt-10'>
+           <div className=''>
             <Classes/>
             <div>
             <button>See Class Schedule </button>
 
             </div>
-
            </div>
 
-            <div className='bg-red-500'>
+            <div className=''>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div>
                       
